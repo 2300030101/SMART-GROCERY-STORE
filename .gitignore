@@ -1,0 +1,75 @@
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+.report/
+
+# Runtime data
+*.uuid
+*.pid
+*.seed
+*.etag
+*.timestamp
+
+# Directory for portable compiled binaries
+bin/
+
+# Dependencies
+# Typically, you'll want to ignore this.
+# Do not ignore if you're building a distributed system and want to include this.
+node_modules/
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional: TypeScript output files
+# If you're building a JavaScript project, you'll want to ignore this.
+# You can uncomment these if you don't want to track compiled JavaScript files.
+# For example, if you only commit TypeScript source and compile on build server.
+# However, many projects commit the compiled JavaScript for easier deployment.
+# *.js
+# *.d.ts
+# js/
+# dist/
+# build/
+
+# Environments
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.bak
+
+# Others
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+# Frontend build output
+/frontend/dist
+/frontend/build
+
+# Backend build output
+/backend/dist
+/backend/build
+
+# Database files
+*.db
+*.sqlite
+/schema.sql
